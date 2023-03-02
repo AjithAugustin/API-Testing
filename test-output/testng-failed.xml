@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.base.Sample">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="addUserAddress"/>
+          <include name="stateList"/>
+          <include name="login"/>
+          <include name="updateUserAddress"/>
+          <include name="deleteUserAddress"/>
+          <include name="getUserAddress"/>
+          <include name="cityList"/>
+        </methods>
+      </class> <!-- com.base.Sample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

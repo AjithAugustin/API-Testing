@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20663" started-at="2023-02-08T06:24:53Z" finished-at="2023-02-08T06:25:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20663" started-at="2023-02-08T06:24:53Z" finished-at="2023-02-08T06:25:14Z">
+      <class name="com.base.Sample">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.base.Sample@79be0360]" name="login" duration-ms="13784" started-at="2023-02-08T06:24:54Z" finished-at="2023-02-08T06:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="stateList()[pri:2, instance:com.base.Sample@79be0360]" name="stateList" duration-ms="894" started-at="2023-02-08T06:25:07Z" finished-at="2023-02-08T06:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stateList -->
+        <test-method status="PASS" signature="cityList()[pri:3, instance:com.base.Sample@79be0360]" name="cityList" duration-ms="1444" started-at="2023-02-08T06:25:08Z" finished-at="2023-02-08T06:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityList -->
+        <test-method status="PASS" signature="addUserAddress()[pri:4, instance:com.base.Sample@79be0360]" name="addUserAddress" duration-ms="824" started-at="2023-02-08T06:25:10Z" finished-at="2023-02-08T06:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserAddress -->
+        <test-method status="PASS" signature="updateUserAddress()[pri:5, instance:com.base.Sample@79be0360]" name="updateUserAddress" duration-ms="900" started-at="2023-02-08T06:25:11Z" finished-at="2023-02-08T06:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserAddress -->
+        <test-method status="PASS" signature="getUserAddress()[pri:6, instance:com.base.Sample@79be0360]" name="getUserAddress" duration-ms="899" started-at="2023-02-08T06:25:11Z" finished-at="2023-02-08T06:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserAddress -->
+        <test-method status="PASS" signature="deleteUserAddress()[pri:7, instance:com.base.Sample@79be0360]" name="deleteUserAddress" duration-ms="873" started-at="2023-02-08T06:25:12Z" finished-at="2023-02-08T06:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserAddress -->
+        <test-method status="PASS" signature="searchProduct()[pri:8, instance:com.base.Sample@79be0360]" name="searchProduct" duration-ms="859" started-at="2023-02-08T06:25:13Z" finished-at="2023-02-08T06:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+      </class> <!-- com.base.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
